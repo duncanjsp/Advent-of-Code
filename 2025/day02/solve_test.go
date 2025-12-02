@@ -33,6 +33,6 @@ func Test_Part2(t *testing.T) {
 	want := 4174379265
 
 	if got != want {
-		t.Fatalf("Part 1 solution failed with %d, want %d", got, want)
+		t.Fatalf("Part 2 solution failed with %d, want %d", got, want)
 	}
 }
