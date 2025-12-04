@@ -22,17 +22,17 @@ func Test_Part1(t *testing.T) {
 	}
 }
 
-// func Test_Part2(t *testing.T) {
-// 	raw, err := os.ReadFile("sample.txt")
-// 	if err != nil {
-// 		t.Fatalf("failed to read sample input: %v", err)
-// 	}
+func Test_Part2(t *testing.T) {
+	raw, err := os.ReadFile("sample.txt")
+	if err != nil {
+		t.Fatalf("failed to read sample input: %v", err)
+	}
 
-// 	_, got := main.Solve(string(raw))
+	_, got := main.Solve(string(raw))
 
-// 	want := 0
+	want := 3121910778619
 
-// 	if got != want {
-// 		t.Fatalf("Part 2 solution failed with %d, want %d", got, want)
-// 	}
-// }
+	if got != want {
+		t.Fatalf("Part 2 solution failed with %d, want %d", got, want)
+	}
+}
